@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
+
+p {
+    line-height: 1.5;
+}
+
+.TabContainer {
+    background-color: #fff;
+    max-width: 768px;
+    margin: 0 auto 4rem auto;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+}
+
+.Tabs {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    padding-inline-start: 0px !important;
+    color: #fff;
+    background-color: #3472a1;
+}
+
+.Tab {
+    flex: 1 0 auto;
+    padding: 1rem 1.5rem calc(1rem - 4px);
+    border-bottom: 4px solid transparent;
+    list-style-type: none;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #053558;
+    }
+
+    &.is-selected {
+        border-bottom: 4px solid #053558;
+        background-color: #053558;
+    }
+}
+
+.TabPanel {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    padding: 1rem;
+}

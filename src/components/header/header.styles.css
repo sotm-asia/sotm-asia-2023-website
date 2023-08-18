@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Philosopher&display=swap');
+
+.ant-menu{
+    font-size: 18px; 
+}
+
+.ant-menu-title-content {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 16px; 
+    font-weight: 500;
+}
+
+.text-logo {
+    font-family: 'Philosopher', sans-serif;;
+    font-size: 24px;
+    font-weight:bolder;
+    letter-spacing: 0.00em;
+    /* color: rgba(37, 34, 82, 1) !important; */
+    color: #2e296e;
+    line-height: 1em;
+}
+
+.alternate-logo-color{
+    color: #de0e0e;
+}

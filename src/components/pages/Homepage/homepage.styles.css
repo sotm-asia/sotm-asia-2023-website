@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
+
+.landing-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    min-height: 800px;
+}
+
+.landing-header-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 600px;
+    width: 100%;
+}
+
+.landing-overlay-gradient {
+    display: flex;
+    opacity: 0.9;
+    height: 800px;
+    rotate: 180;
+    width: 100%;
+    background: rgb(156, 46, 67);
+    background: linear-gradient(180deg, rgba(156, 46, 67, 1) 0%, rgba(73, 99, 168, 1) 100%);
+}
+
+.landing-header {
+    position: relative;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    margin-top: 50px;
+    padding: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px #1e1e34;
+}
+
+.landing-sub-header {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px #1e1e34;
+    padding-top: 20px;
+}
+
+.landing-header-wave{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%;
+    min-height: 50px;
+    bottom: 0;
+    margin-top: -50px;
+}
+
+.countdown-timer-container{
+    width: 60vw;
+    height: 200px;
+    border-radius: 10px;
+    min-width: 360px;
+    max-width: 720px;
+    background-color: rgba(0,0,0,0.8);
+    background-position: center;
+    /* background-size: cover; */
+    color: white;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+.social-icon-containrer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 360;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    margin: 0px 6px 6px 6px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.6);
+    /* transition: all 0.3s cubic-bezier(.25, .8, .25, 1); */
+    &:hover {
+        background-color: white;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+}
+
+.homepage-segment {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: white;
+}
+
+.homepage-segment-dark{
+    background-color: #21242b;
+}
+
+.segment-header-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.segment-header-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgba(255,255, 255, 0.5);
+    /* -webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75); */
+}
+
+.segment-header-image-dark-theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgba(255,255, 255, 0.25);
+    -webkit-box-shadow: 0px 0px 20px -10px rgba(255,255, 255, 0.5);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(255,255, 255, 0.5);
+    box-shadow: 0px 0px 20px -10px rgba(255,255, 255, 0.5);
+}
+
+.segment-heading {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    color: #3472a1;
+    text-shadow: 1px 1px 1px #a1abc4;
+}
+
+.segment-heading-dark-theme{
+    color: white !important;
+    text-shadow: 0px 0px 0px #a1abc4;
+}
+
+.segment-content-text {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    max-width: max-content;
+    padding-bottom: 20px;
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+.segment-content-text-dark-theme{
+    color: white !important;
+    font-weight: 400;
+}
+
+.segment-button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: larger !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.link-text{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 500;
+    font-size: 18px !important;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.segment-divider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    min-height: 50px;
+    bottom: -150;
+}

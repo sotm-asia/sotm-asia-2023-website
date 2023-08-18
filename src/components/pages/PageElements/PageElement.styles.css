@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
+
+.proposal-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 240px;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-cover-image{
+    height: 160px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 20px !important;
+}
+
+.card-text{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    color: #123456 !important;
+    text-align: center;
+}
+
+.leaflet-container {
+    height: 80vw;
+    width: 80vw;
+    max-height: 460px;
+    z-index: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.leaflet-div-icon {
+    background: transparent;
+    border: none;
+}
+
+.wrapper {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  .container {
+    width: 28vmin;
+    height: 20vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #3472a1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  }
+  
+  i {
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  span.num {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    color: #3472a1;
+    display: grid;
+    place-items: center;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    .wrapper {
+      width: 85vw;
+    }
+    .container {
+      height: 26vmin;
+      width: 26vmin;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      width: 90vw;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .container {
+      width: calc(50% - 40px);
+      height: 30vmin;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      gap: 15px;
+    }
+    .container {
+      width: 100%;
+      height: 25vmin;
+      font-size: 8px;
+    }
+  }
+
+  .page-404-img{
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .publish-soon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 400;
+    margin: 20px;
+    padding: 20px;
+  }

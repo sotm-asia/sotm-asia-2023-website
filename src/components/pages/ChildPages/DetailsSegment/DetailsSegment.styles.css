@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
+
+.section-heading {
+    font-family: 'Philosopher', sans-serif !important;
+    font-size: 28px !important;
+    font-weight: bold;
+    text-align: center;
+    width: 80vw !important;
+    color: #3472a1;
+    text-shadow: 1px 1px 1px #a1abc4;
+}
+
+.section-content-text {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 16px !important;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 50px;
+    width: 80vw;
+
+}
+
+.description-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+}
+
+.description-image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: -100px 0px 0px 0px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: white;
+    /* background: rgb(73,99,168);
+background: radial-gradient(circle, rgba(73,99,168,1) 0%, rgba(46,154,156,1) 100%); */
+    -webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.wave-bottom {
+    display: flex;
+    width: 100%;
+    bottom: 0px;
+}

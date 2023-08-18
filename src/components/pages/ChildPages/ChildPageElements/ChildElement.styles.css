@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
+
+.credit-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+}
+
+.credit-header{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(156, 46, 67);
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px #1e1e34;
+    padding-bottom: 20px;
+}
+
+.credit-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    width: 60vw;
+    margin: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0px 001px rgba(0, 0, 0, 0.5), 0 0px 4px rgba(0, 0, 0, 0.6);
+    &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+}

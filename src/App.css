@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
+
+
+.barlow-semi-condensed {
+  font-family: 'Barlow Semi Condenced', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-custom {
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  width: 100%;
+  height: 112px;
+  padding-inline: 20px;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  z-index: 10;
+}
+
+.footer-custom {
+  /* flex: none; */
+  /* flex-basis: 100px; */
+  /* position: fixed; */
+  /* bottom: 0; */
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  width: 100%;
+  background-color: #21242b;
+  text-align: center;
+  color: white;
+}
+
+.content-custom {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.ant-btn-primary {
+  font-family: 'Dosis', sans-serif !important;
+  letter-spacing: 1px;
+  background-color: #3472a1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  &:hover {
+    /* background-color: #365577 !important; */
+    background-color: #3472a1 !important;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.instagram{
+background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}

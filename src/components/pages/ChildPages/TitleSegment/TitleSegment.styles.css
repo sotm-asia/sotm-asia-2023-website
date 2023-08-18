@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
+
+
+.title-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    min-height: 400px;
+}
+
+.title-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.image-overlay-gradient {
+    display: flex;
+    opacity: 0.9;
+    height: 400px;
+    rotate: 180;
+    width: 100%;
+    background: rgb(156, 46, 67);
+    background: linear-gradient(180deg, rgba(156, 46, 67, 1) 0%, rgba(73, 99, 168, 1) 100%);
+}
+
+.title-header {
+    position: relative;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 32px;
+    margin-top: 100px;
+    padding: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px #1e1e34;
+}
+
+.title-sub-header {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    width: 80vw;
+    color: white;
+    /* line-height: 1px; */
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 1px #1e1e34;
+}
+
+.header-wave{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%;
+    min-height: 50px;
+    bottom: 0;
+    margin-top: -50px;
+}
+
+

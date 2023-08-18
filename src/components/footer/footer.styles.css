@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-segment-header{
+    color: #ffc431;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.footer-segment-text{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    color: #dddddd;
+}
+
+.disclaimer-section {
+    width: 100%;
+    background-color: #21242b;
+}
+
+.footer-segment {
+    width: 100%;
+    background-color: #21242b;
+}
+
+.footer-social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    font-size: 10px;
+    border-radius: 30px;
+    margin: 0px 5px 5px 5px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.6);
+    /* transition: all 0.3s cubic-bezier(.25, .8, .25, 1); */
+    &:hover {
+        background-color: white;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+}
+
+li:hover {
+    /* color: white; */
+}
+
+li{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+ul.horizontal-list {
+    list-style: none;
+    /* color: white; */
+    display: inline-block;
+    padding: 0rem 0rem;
+    margin-top: 1rem;
+}
+
+ul.horizontal-list li {
+    display: inline-block;
+    padding: 0 0.5rem;
+    /* min-width: 6rem; */
+    text-align: center;
+    cursor: pointer;
+}
+
+ul.horizontal-list li:not(:last-child) {
+    border-right: 2px solid #1677ff;
+}
+
+/* :where(.css-dev-only-do-not-override-byeoj0) a {
+    color: #ffc431 !important;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0) a:hover {
+    color: #ffffff !important;
+} */
