@@ -15,7 +15,7 @@ export const ContentComponent = () => {
         <div>
             <Routes>
                 <Route path="/" element={<HomepageComponent />}></Route>
-                <Route path="/sotm-asia-2023" element={<HomepageComponent />}></Route>
+                <Route path="/sotm-asia-2023-website" element={<HomepageComponent />}></Route>
                 {/* <Route path="/about" element={<ChildMasterPage />} ></Route> */}
                 <Route path="/about/sotm-asia" element={<ChildMasterPage contents={ContentTexts.about.sotmAsia} />}></Route>
                 <Route path="/about/sotm-asia-history" element={<ChildMasterPage contents={ContentTexts.about.sotmAsiaHistory} />}></Route>
