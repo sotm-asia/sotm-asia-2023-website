@@ -39,12 +39,6 @@ export const SpeakersList = (props) => {
                 >
                     <Meta className="card-text" title="Md. Azizul Alam" description="Workshop" />
                 </Card>
-                <Card
-                    className="proposal-card"
-                    cover={<img className="card-cover-image" alt="example" src='https://picsum.photos/500/400' />}
-                >
-                    <Meta className="card-text" title="Mikko Tamura" description="Lightning Talk" />
-                </Card>
             </div>
         </div>
     );
