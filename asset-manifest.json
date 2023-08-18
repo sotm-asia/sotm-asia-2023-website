@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sotm-asia-2023/static/css/main.33a0787a.css",
-    "main.js": "/sotm-asia-2023/static/js/main.09cc6a2a.js",
+    "main.js": "/sotm-asia-2023/static/js/main.5cdc689d.js",
     "static/js/787.e086b938.chunk.js": "/sotm-asia-2023/static/js/787.e086b938.chunk.js",
     "static/media/2023-header-homepage.png": "/sotm-asia-2023/static/media/2023-header-homepage.c665207ecf5af3622835.png",
     "static/media/2023-bg-topo.png": "/sotm-asia-2023/static/media/2023-bg-topo.33d8ae39e261c9b59cd3.png",
@@ -26,11 +26,11 @@
     "static/media/page-header-wave.svg": "/sotm-asia-2023/static/media/page-header-wave.5aab76cfa723cc19cf051381a3f1d11c.svg",
     "index.html": "/sotm-asia-2023/index.html",
     "main.33a0787a.css.map": "/sotm-asia-2023/static/css/main.33a0787a.css.map",
-    "main.09cc6a2a.js.map": "/sotm-asia-2023/static/js/main.09cc6a2a.js.map",
+    "main.5cdc689d.js.map": "/sotm-asia-2023/static/js/main.5cdc689d.js.map",
     "787.e086b938.chunk.js.map": "/sotm-asia-2023/static/js/787.e086b938.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33a0787a.css",
-    "static/js/main.09cc6a2a.js"
+    "static/js/main.5cdc689d.js"
   ]
 }
