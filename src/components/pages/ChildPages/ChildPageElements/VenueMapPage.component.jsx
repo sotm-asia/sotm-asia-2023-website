@@ -14,16 +14,6 @@ import SegmentDividerBottom from "../../../../assets/bg-svg/segment-divider-bott
 export const VenueMapPage = (props) => {
     const contents = props.contents;
 
-    // useEffect(() => {
-    //     window.addEventListener("scroll", handleScroll, {
-    //         passive: true,
-    //     });
-
-    //     return () => {
-    //         window.removeEventListener("scroll", handleScroll);
-    //     };
-    // }, []);
-
     return (
         <div style={{ backgroundColor: "white" }}>
             <div className="title-image" style={{ backgroundImage: `url(${TitleImage})` }}>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { ChildMasterPage } from "../pages/ChildPages/ChildMasterPage.component";
 import { HomepageComponent } from "../pages/Homepage/homepage.component";
 import { ContentTexts } from "./content_texts";

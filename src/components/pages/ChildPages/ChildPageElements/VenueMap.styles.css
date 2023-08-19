@@ -1,29 +1,39 @@
 .venue-map-container{
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-items: center;
     align-items: center;
     min-width: 90vw;
-    height: calc(100vh - (132px + 40px));
-    background-color: rgba(255, 255, 255, 0.9);
+    height: calc(100vh - (132px + 20px));
+    /* background-color: rgba(233, 238, 246, 0.5); */
     /* background-color: rgba(255, 112, 55, 0.6); */
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
     top: -400px;
-    margin: 40px;
+    margin: 20px;
     margin-bottom: -400px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px;;
 }
 
 .map-info-pane{
-    height: calc(100vh - (132px + 80px));;
-    width: 25%;
+    /* height: calc(100vh - (132px + 40px)); */
+    height: 420px;
+    width: 100%;
     background-color: white;
+    /* margin: 10px 10px 10px 10px; */
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
 }
 
 .map-container{
-    height: calc(100vh - (132px + 80px));;
-    width: 75%;
+    height: calc(100vh - (132px + 40px));;
+    width: 100%;
     background-color: rgb(124, 109, 227);
+    /* margin: 10px 10px 10px 10px; */
+    margin-top: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
 
 }

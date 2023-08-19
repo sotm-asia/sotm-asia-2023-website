@@ -145,9 +145,9 @@ export const FooterComponent = () => {
                     <li>
                         <Link to="/credits">Credits</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/attending/attending-guidelines">Guidelines</Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link to="/about/committee">Committee</Link>
                     </li>

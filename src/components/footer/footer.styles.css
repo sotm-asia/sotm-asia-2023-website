@@ -14,6 +14,7 @@
     font-size: 24px;
     font-weight: bold;
     text-align: left;
+    letter-spacing: 1px;
 }
 
 .footer-segment-text{
@@ -22,15 +23,17 @@
     font-weight: 300;
     text-align: left;
     color: #dddddd;
+    letter-spacing: 1px;
 }
 
 .disclaimer-section {
-    width: 100%;
+    width: 80vw;
     background-color: #21242b;
+    letter-spacing: 1px;
 }
 
 .footer-segment {
-    width: 100%;
+    width: 80vh;
     background-color: #21242b;
 }
 
@@ -69,6 +72,7 @@ ul.horizontal-list {
     display: inline-block;
     padding: 0rem 0rem;
     margin-top: 1rem;
+    letter-spacing: 1px;
 }
 
 ul.horizontal-list li {
@@ -77,6 +81,7 @@ ul.horizontal-list li {
     /* min-width: 6rem; */
     text-align: center;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 
 ul.horizontal-list li:not(:last-child) {

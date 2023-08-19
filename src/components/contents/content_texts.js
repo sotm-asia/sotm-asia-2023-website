@@ -38,7 +38,7 @@ export const ContentTexts = {
             header: "Speaker",
             subHeader: "A detail Concept of State of the Map Asia",
             email: "",
-            link: "/schedule/speakers",
+            link: "/conference/speakers",
             buttonText: "More Speakers",
             contentText:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum",
