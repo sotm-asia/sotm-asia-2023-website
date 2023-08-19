@@ -10,7 +10,8 @@
 }
 
 .card-cover-image{
-    height: 160px;
+    height: 160px !important;
+    width: 160px !important;
     padding: 10px;
     margin-top: 5px;
     border-radius: 20px !important;
