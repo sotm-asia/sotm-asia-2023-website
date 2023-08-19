@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import L from "leaflet";
 import { Map, TileLayer, Marker, Popup, MapContainer } from "react-leaflet";
 import "./PageElement.styles.css";
-import "../Homepage/content.styles.css";
 import "leaflet/dist/leaflet.css";
 
 import icon from "leaflet/dist/images/marker-icon.png";

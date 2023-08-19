@@ -9,6 +9,7 @@ import {Page404} from '../pages/PageElements/Page404.component'
 import {CreditsElement} from '../pages/ChildPages/ChildPageElements/CreditsElement.components'
 
 import ic404Thumb from "../../assets/bg-svg/ic-404-thumb.svg";
+import { VenueMapPage } from "../pages/ChildPages/ChildPageElements/VenueMapPage.component";
 
 export const ContentComponent = () => {
     return (
@@ -47,7 +48,9 @@ export const ContentComponent = () => {
                     path="/attending/getting-to-bangkok"
                     element={<ChildMasterPage contents={ContentTexts.attending.gettingBangkok} />}
                 ></Route>
+
                 <Route path="/attending/venue" element={<ChildMasterPage contents={ContentTexts.attending.venue} childElement={<VenueMap />} />}></Route>
+                {/* <Route path="/attending/venue" element={<VenueMapPage contents={ContentTexts.attending.venue} />}></Route> */}
 
                 <Route path="/conference/keynote" element={<ChildMasterPage contents={ContentTexts.conference.keynote} />}></Route>
 
