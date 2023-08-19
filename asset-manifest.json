@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.75b27544.css",
-    "main.js": "/static/js/main.e8d99b8e.js",
+    "main.js": "/static/js/main.3af4096c.js",
     "static/js/787.e086b938.chunk.js": "/static/js/787.e086b938.chunk.js",
     "static/media/2023-header-homepage.png": "/static/media/2023-header-homepage.c665207ecf5af3622835.png",
     "static/media/2023-bg-topo.png": "/static/media/2023-bg-topo.33d8ae39e261c9b59cd3.png",
@@ -13,7 +13,7 @@
     "static/media/ic_proposal_card_1.svg": "/static/media/ic_proposal_card_1.2628d0e0a190043722963480ff54c84d.svg",
     "static/media/mikko.jpg": "/static/media/mikko.c57bdbf81390441f1a3e.jpg",
     "static/media/ic-404-page.svg": "/static/media/ic-404-page.1e4bb7041b27b0d594c58baf24b42a7d.svg",
-    "static/media/nama.jpg": "/static/media/nama.194c3e2d02f3bd5bef7f.jpg",
+    "static/media/nama.jpg": "/static/media/nama.a3f1668110e76722019b.jpg",
     "static/media/ic_proposal_card_3.svg": "/static/media/ic_proposal_card_3.e3dba6ecc301766959aec5a38ee19279.svg",
     "static/media/publish-soon.svg": "/static/media/publish-soon.963bfa87e9f53b647c6d44e09b61ec0e.svg",
     "static/media/section-icon-about-us.svg": "/static/media/section-icon-about-us.1d2846baab559f350e672b52887ca40b.svg",
@@ -27,11 +27,11 @@
     "static/media/page-header-wave.svg": "/static/media/page-header-wave.5aab76cfa723cc19cf051381a3f1d11c.svg",
     "index.html": "/index.html",
     "main.75b27544.css.map": "/static/css/main.75b27544.css.map",
-    "main.e8d99b8e.js.map": "/static/js/main.e8d99b8e.js.map",
+    "main.3af4096c.js.map": "/static/js/main.3af4096c.js.map",
     "787.e086b938.chunk.js.map": "/static/js/787.e086b938.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75b27544.css",
-    "static/js/main.e8d99b8e.js"
+    "static/js/main.3af4096c.js"
   ]
 }
