@@ -2,9 +2,9 @@ import { Card } from "antd";
 import React from "react";
 import './PageElement.styles.css'
 import useViewport from '../../../hooks/useViewport'
-import icProposalCard1 from "../../../assets/bg-svg/ic_proposal_card_1.svg";
-import icProposalCard2 from "../../../assets/bg-svg/ic_proposal_card_2.svg";
-import icProposalCard3 from "../../../assets/bg-svg/ic_proposal_card_3.svg";
+import speakerOne from "../../../assets/speakers/nama.jpg";
+import speakerTwo from "../../../assets/speakers/taichi.jpg";
+import speakerThree from "../../../assets/speakers/mikko.jpg";
 
 const { Meta } = Card;
 
@@ -23,21 +23,21 @@ export const SpeakersList = (props) => {
             <div style={width > breakpoint ? desktopView : mobileView}>
                 <Card
                     className="proposal-card"
-                    cover={<img className="card-cover-image" alt="example" src='https://picsum.photos/600/500' />}
+                    cover={<img className="card-cover-image" alt="example" src={speakerOne} />}
                 >
-                    <Meta className="card-text" title="Nama Budhataki" description="Presentation" />
+                    <Meta className="card-text" title="Nama Raj Budhathoki" description="Presentation" />
                 </Card>
                 <Card
                     className="proposal-card"
-                    cover={<img className="card-cover-image" alt="example" src='https://picsum.photos/700/600' />}
+                    cover={<img className="card-cover-image" alt="example" src={speakerTwo} />}
                 >
-                    <Meta className="card-text" title="Taichi Furuhashi" description="Presentation" />
+                    <Meta className="card-text" title="Taichi Furuhashi" description="Lightning Talk" />
                 </Card>
                 <Card
                     className="proposal-card"
-                    cover={<img className="card-cover-image" alt="example" src='https://picsum.photos/500/400' />}
+                    cover={<img className="card-cover-image" alt="example" src={speakerThree} />}
                 >
-                    <Meta className="card-text" title="Md. Azizul Alam" description="Workshop" />
+                    <Meta className="card-text" title="Mikko Tamura" description="Workshop" />
                 </Card>
             </div>
         </div>

@@ -35,13 +35,13 @@ export const ContentTexts = {
                 "State of the Map Asia and FOSS4G Thailand are looking for sponsors! If you would like to help us make these co-events a success, please check out the sponsorship prospectus below",
         },
         speaker: {
-            header: "Speaker",
-            subHeader: "A detail Concept of State of the Map Asia",
+            header: "Speakers",
+            subHeader: "Our Speakers and Guest",
             email: "",
             link: "/conference/speakers",
             buttonText: "More Speakers",
             contentText:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum",
+                "Meet few of our common Speakers and Guests.",
         },
         conference: {
             header: "Program Schedule",
