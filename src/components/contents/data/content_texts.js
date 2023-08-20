@@ -41,7 +41,7 @@ export const ContentTexts = {
             link: "/conference/speakers",
             buttonText: "More Speakers",
             contentText:
-                "Meet few of our common Speakers and Guests.",
+                "State of the Map Asia gathers mappers from diverse nations to share the current mapping status of their respective countries and introduce various projects they are involved in. The Talk session serves as a platform for these mappers to engage in lively discussions, exchange ideas, and collaborate on mapping challenges. It not only fosters a sense of community among OpenStreetMap enthusiasts but also promotes the growth and development of open-source mapping in the Asian region",
         },
         conference: {
             header: "Program Schedule",

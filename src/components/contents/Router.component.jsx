@@ -2,7 +2,7 @@ import React from "react";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { ChildMasterPage } from "../pages/ChildPages/ChildMasterPage.component";
 import { HomepageComponent } from "../pages/Homepage/homepage.component";
-import { ContentTexts } from "./content_texts";
+import { ContentTexts } from "../contents/data/content_texts";
 
 import { VenueMap } from "../pages/PageElements/VenueMap.component";
 import {Page404} from '../pages/PageElements/Page404.component'

@@ -5,7 +5,7 @@ import { HomepageSegmentLight } from "./homepage-segment-light";
 import { HomepageSegmentDark } from "./homepage-segment-dark";
 import { ProposalTypes } from "../PageElements/ProposalTypes.component";
 
-import { ContentTexts } from "../../contents/content_texts";
+import { ContentTexts } from "../../contents/data/content_texts";
 
 import icAboutUs from "../../../assets/bg-svg/section-icon-about-us.svg";
 import icPrposal from "../../../assets/bg-svg/section-icon-proposal.svg";
