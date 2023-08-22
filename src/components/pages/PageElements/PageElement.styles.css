@@ -141,12 +141,12 @@ span.text {
   background-size: cover;
   background-repeat: no-repeat;
   width: 60vw;
-  height: 400;
+  height: 400px;
   margin: 20px;
   padding: 20px;
 }
 
-.speaker-container{
+.speaker-container {
   display: flex;
   flex-direction: column;
 }
@@ -155,17 +155,32 @@ span.text {
   display: flex;
   flex-direction: row;
   width: 80vw;
+  height: fit-content;
   border-radius: 10px;
-  background-color: rgb(220, 221, 229);
+  background-color: rgb(237, 238, 242);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   margin: 10px;
-  height: 240px;
+  overflow-y: visible;
 }
 
-.speaker-image-container{
+.speaker-single-container-mobile {
+  display: relative;
+  /* flex-direction: row; */
+  width: 80vw;
+  height: fit-content;
+  border-radius: 10px;
+  background-color: rgb(237, 238, 242);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 10px;
+  overflow-y: visible;
+}
+
+.speaker-image-container {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-items: center;
+  width: 100%;
   height: 100%;
   padding: 1rem;
   background-color: rgb(255, 255, 255);
@@ -173,23 +188,38 @@ span.text {
   border-bottom-left-radius: 10px;
 }
 
-.speaker-image{
+.speaker-image-container-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
   width: 100%;
-  height: 1000%px;
-  /* background-color: aquamarine; */
-  border-radius: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.speaker-description-container{
+.speaker-image {
+  /* width: 100%; */
+  height: 240px;
+  padding: 10px;
+  /* background-color: aquamarine; */
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.speaker-description-container {
   position: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: fit-content;
   padding: 1rem;
-  padding: 10px;
 }
 
-.speaker-description-header{
+.speaker-description-header {
   font-family: 'Philosopher', sans-serif;
   font-weight: bolder;
   color: rgb(156, 46, 67);
@@ -198,7 +228,7 @@ span.text {
   font-size: 24px;
 }
 
-.speaker-description-sub-header{
+.speaker-description-sub-header {
   font-family: 'Dosis', sans-serif;
   letter-spacing: 1px;
   color: slategray;
@@ -207,13 +237,17 @@ span.text {
   font-size: 18px;
 }
 
-.speaker-description-text{
+.speaker-description-text {
+  height: auto;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 300;
   /* letter-spacing: 0.5px; */
   font-size: 16px;
-  color: #1e1e24;
+  color: #21242b;
   display: grid;
-  place-items: left;
+  text-align: center;
+  padding-top: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-line;
 }
-
