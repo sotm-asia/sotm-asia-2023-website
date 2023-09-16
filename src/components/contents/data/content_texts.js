@@ -11,8 +11,8 @@ export const ContentTexts = {
             header: "About State of the Map Asia 2023",
             subHeader: "A detail Concept of State of the Map Asia",
             email: "",
-            link: "/about/sotm-asia",
-            buttonText: "Know more about SOTM",
+            link: "https://2023.foss4g.in.th/register/",
+            buttonText: "Register for the FOSS4G Thailand and SotM 2023",
             contentText:
                 "State of the Map Asia 2023 conference, along with FOSS4G Thailand, will be held at the Srinakharinwirot University - Asoke Area in the vibrant city of Bangkok, Thailand on November 16-18, 2023. This premier event aims to bring together geospatial experts, GIS enthusiasts, developers, humanitarian workers, and policymakers from across Asia to share knowledge, insights, and experiences related to OpenStreetMap (OSM) and the broader open mapping community.",
         },
