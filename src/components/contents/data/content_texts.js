@@ -210,9 +210,9 @@ export const ContentTexts = {
             header: "Guest & Speakers",
             subHeader: "Our honorable Guest & Speakers",
             contentTitle: "Guest & Speakers",
-            status: false,
+            status: true,
             contentText:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                "State of the Map Asia gathers mappers from diverse nations to share the current mapping status of their respective countries and introduce various projects they are involved in. The Talk session serves as a platform for these mappers to engage in lively discussions, exchange ideas, and collaborate on mapping challenges. It not only fosters a sense of community among OpenStreetMap enthusiasts but also promotes the growth and development of open-source mapping in the Asian region",
         },
         socialEvents: {
             header: "Social Events",

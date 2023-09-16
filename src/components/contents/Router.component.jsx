@@ -10,6 +10,7 @@ import {CreditsElement} from '../pages/ChildPages/ChildPageElements/CreditsEleme
 
 import ic404Thumb from "../../assets/bg-svg/ic-404-thumb.svg";
 import { VenueMapPage } from "../pages/ChildPages/ChildPageElements/VenueMapPage.component";
+import { SpeakersList } from "../pages/PageElements/SpekersList.component";
 
 export const ContentComponent = () => {
     return (
@@ -56,7 +57,7 @@ export const ContentComponent = () => {
 
                 <Route
                     path="/conference/speakers"
-                    element={<ChildMasterPage contents={ContentTexts.conference.speakers} />}
+                    element={<ChildMasterPage contents={ContentTexts.conference.speakers} childElement={<SpeakersList />} />}
                 ></Route>
                 <Route
                     path="/conference/program-schedule"
