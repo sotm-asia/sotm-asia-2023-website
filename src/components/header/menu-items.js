@@ -39,27 +39,27 @@ const MenuItems = [
             },
         ],
     },
-    {
-        label: "Proposals",
-        key: "/proposals",
-        icon: <UnorderedListOutlined />,
-        children: [
-            {
-                label: "Call for Proposals",
-                key: "/proposals/call-for-proposals",
-            },
-            {
-                label: "Submit Proposal"
-                // (
-                //     <a href="https://conference.foss4g.in.th/2023/submit/ynAMwv/info/" target="_blank" rel="noopener noreferrer">
-                //       Submit Proposal
-                //     </a>
-                //   )
-                  ,
-                key: "/proposals/submit-proposal",
-            },
-        ],
-    },
+    // {
+    //     label: "Proposals",
+    //     key: "/proposals",
+    //     icon: <UnorderedListOutlined />,
+    //     children: [
+    //         {
+    //             label: "Call for Proposals",
+    //             key: "/proposals/call-for-proposals",
+    //         },
+    //         {
+    //             label: "Submit Proposal"
+    //             // (
+    //             //     <a href="https://conference.foss4g.in.th/2023/submit/ynAMwv/info/" target="_blank" rel="noopener noreferrer">
+    //             //       Submit Proposal
+    //             //     </a>
+    //             //   )
+    //               ,
+    //             key: "/proposals/submit-proposal",
+    //         },
+    //     ],
+    // },
     {
         label: "Attending",
         key: "attending",

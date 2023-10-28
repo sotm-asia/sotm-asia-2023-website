@@ -36,8 +36,8 @@
     position: relative;
     font-family: 'Philosopher', sans-serif;
     font-size: 36px;
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 30px;
+    padding: 10px;
     font-weight: bolder;
     letter-spacing: 1px;
     text-align: center;
@@ -53,7 +53,7 @@
     color: white;
     letter-spacing: 3px;
     text-shadow: 1px 1px 1px #1e1e34;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .landing-header-wave{
@@ -228,4 +228,25 @@
     width: 100%;
     min-height: 50px;
     bottom: -150;
+}
+
+.sponsor-segment-containrer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vh;
+}
+
+.sponsor-icon-containrer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.host-icon-containrer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }

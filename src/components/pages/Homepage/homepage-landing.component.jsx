@@ -5,6 +5,8 @@ import LandingImage from "../../../assets/2023-header-homepage.png";
 import { CountdownTimer } from "../../contents/countdown/CountdownTimer";
 import waveBlueBottom from "../../../assets/bg-svg/bg-footer-wave.svg";
 import PageHeaderWave from "../../../assets/bg-svg/page-header-wave.svg";
+import SotmLogo from "../../../assets/sotm-asia-2023-logo.png";
+import Foss4gThaiLogo from "../../../assets/foss4g-thai-2023.png";
 import moment from "moment";
 import { FacebookFilled, LinkedinFilled, TwitterCircleFilled, GithubFilled } from "@ant-design/icons";
 
@@ -29,6 +31,16 @@ export const HomepageLanding = (props) => {
                     <br />
                     {contents.venue}
                 </p>
+
+                <div className="host-icon-containrer">
+                    <div>
+                        <Image height={100} preview={false} src={SotmLogo}></Image>
+                    </div>
+                    <div>
+                        <Image height={100} preview={false} src={Foss4gThaiLogo}></Image>
+                    </div>
+                </div>
+
                 <p className="landing-sub-header" style={{ fontSize: 16 }}>
                     {contents.coOrganiser}
                 </p>
@@ -39,7 +51,7 @@ export const HomepageLanding = (props) => {
                         type="primary"
                         size="large"
                         className="segment-button"
-                        style={{ backgroundColor: "rgba(73, 99, 168, 1)" }}
+                        style={{ backgroundColor: "rgba(73, 99, 168, 1)", width: "360px", height: "60px", fontSize: 36 }}
                     >
                         {contents.link}
                     </Button>
@@ -58,12 +70,6 @@ export const HomepageLanding = (props) => {
                         onClick={() => onSocialBtnClick("https://www.facebook.com/SotmAsia/")}
                     >
                         <i className="fa-brands fa-facebook-f"></i>
-                    </div>
-                    <div
-                        className="footer-social-icon instagram"
-                        onClick={() => onSocialBtnClick("https://www.instagram.com/sotm_asia/?hl=en")}
-                    >
-                        <i className="fa-brands fa-instagram"></i>
                     </div>
                     <div
                         className="footer-social-icon"

@@ -17,15 +17,17 @@ import { SpeakersList } from "../PageElements/SpekersList.component";
 import { ScheduleTab } from "../PageElements/ScheduleTab.component"
 import { EventsCounter } from "../PageElements/EventsCouter.component";
 import { VenueMap } from "../PageElements/VenueMap.component";
+import { SponsorList } from "../PageElements/SponsorList.component";
+import SotmLogo from "../../../assets/sotm-asia-2023-logo.png";
 
 export const HomepageComponent = () => {
     return (
         <div>
             <HomepageLanding contents={ContentTexts.homepage.landing} />
 
-            <HomepageSegmentLight contents={ContentTexts.homepage.about} headerImage={icAboutUs} elements={<EventsCounter />} />
+            <HomepageSegmentLight contents={ContentTexts.homepage.about} headerImage={SotmLogo} />
             <HomepageSegmentDark contents={ContentTexts.homepage.proposal} headerImage={icPrposal} elements={<ProposalTypes />} />
-            <HomepageSegmentLight contents={ContentTexts.homepage.sponsor} headerImage={icSponsor} topDivider={true}/>
+            <HomepageSegmentLight contents={ContentTexts.homepage.sponsor} headerImage={icSponsor} elements={<SponsorList />} topDivider={true}/>
             <HomepageSegmentDark contents={ContentTexts.homepage.speaker} headerImage={icSpeaker} elements= {<SpeakersList />} />
             <HomepageSegmentLight contents={ContentTexts.homepage.conference} headerImage={icProgramSchedule} elements={<ScheduleTab />}  topDivider={true} />
             <HomepageSegmentDark contents={ContentTexts.homepage.news} headerImage={icNews} />

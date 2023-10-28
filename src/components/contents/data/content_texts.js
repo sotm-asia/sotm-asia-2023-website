@@ -78,31 +78,29 @@ export const ContentTexts = {
             contentTitle: "What is State of the Map Asia",
             status: true,
             contentText:
-                "State of the Map Asia 2023 conference, along with FOSS4G Thailand, will be held at the Srinakharinwirot University - Asoke Area in the vibrant city of Bangkok, Thailand on November 16-18, 2023. This premier event aims to bring together geospatial experts, GIS enthusiasts, developers, humanitarian workers, and policymakers from across Asia to share knowledge, insights, and experiences related to OpenStreetMap (OSM) and the broader open mapping community.",
+                "State of the Map Asia (SotM-Asia)  is a regional SotM conference for the continent of Asia. We hope to serve and gather 300-500 participants from Asia and beyond to connect and discuss not only OpenStreetMap and open data tools, projects and challenges, but also showcase diverse Asian cultures.",
         },
         sotmAsiaHistory: {
             header: "SOTM Asia History",
             subHeader: "A brief History of State of the Map Asia",
             contentTitle: "A brief History of State of the Map Asia",
-            status: false,
+            status: true,
             contentText:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                "OSM’ers organize annual State of the Map meet-ups as a way to build community, share tools and research, and network with each other toward the shared goal of improving the map. They come in all sizes and are organized locally, regionally and globally, but the goal is always the same: to get together to talk about mapmaking research, tools, initiatives, and other community topics.",
         },
         codeOfConduct: {
             header: "Code of Conduct",
             subHeader: "Code of Conduct of State of the Map Asia 2023",
             contentTitle: "Code of Conduct of State of the Map Asia 2023",
-            status: false,
-            contentText:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            status: true,
+            contentText: ""
         },
         committee: {
             header: "Committee",
             subHeader: "Committee of State of the Map Asia",
             contentTitle: "Committee of State of the Map Asia",
-            status: false,
-            contentText:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            status: true,
+            contentText: ""
         },
     },
     proposals: {
@@ -218,9 +216,8 @@ export const ContentTexts = {
             header: "Social Events",
             subHeader: "Guess anything amazing besides the conference!!!",
             contentTitle: "Social Events",
-            status: false,
-            contentText:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            status: true,
+            contentText: ""
         },
     },
     sponsors: {
@@ -228,17 +225,16 @@ export const ContentTexts = {
             header: "Call for Sponsors",
             subHeader: "We are looking for Sponsors, are you interested?",
             contentTitle: "Call for Sponsors",
-            status: false,
+            status: true,
             contentText:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                "State of the Map Asia and FOSS4G Thailand are looking for sponsors! If you would like to help us make these co-events a success, please check out the sponsorship prospectus",
         },
         sponsorsPartners: {
             header: "Sponsors & Partners",
             subHeader: "Our beloved well wishers",
             contentTitle: "Sponsors & Partners",
-            status: false,
-            contentText:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially  unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            status: true,
+            contentText: "",
         },
     },
     news: {

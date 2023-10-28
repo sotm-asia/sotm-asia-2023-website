@@ -11,6 +11,10 @@ import {CreditsElement} from '../pages/ChildPages/ChildPageElements/CreditsEleme
 import ic404Thumb from "../../assets/bg-svg/ic-404-thumb.svg";
 import { VenueMapPage } from "../pages/ChildPages/ChildPageElements/VenueMapPage.component";
 import { SpeakersList } from "../pages/PageElements/SpekersList.component";
+import { CodeOfConductContent } from "../pages/ChildPages/ChildPageElements/CodeOfConductContent.component";
+import { CommitteeContent } from "../pages/ChildPages/ChildPageElements/CommitteeContent.component";
+import { SocialEventContent } from "../pages/ChildPages/ChildPageElements/SocialEventContent.component";
+import { SponsorPartnerContent } from "../pages/ChildPages/ChildPageElements/SponsorPartnerContent.component";
 
 export const ContentComponent = () => {
     return (
@@ -21,8 +25,8 @@ export const ContentComponent = () => {
                 {/* <Route path="/about" element={<ChildMasterPage />} ></Route> */}
                 <Route path="/about/sotm-asia" element={<ChildMasterPage contents={ContentTexts.about.sotmAsia} />}></Route>
                 <Route path="/about/sotm-asia-history" element={<ChildMasterPage contents={ContentTexts.about.sotmAsiaHistory} />}></Route>
-                <Route path="/about/code-of-conduct" element={<ChildMasterPage contents={ContentTexts.about.codeOfConduct} />}></Route>
-                <Route path="/about/committee" element={<ChildMasterPage contents={ContentTexts.about.committee} />}></Route>
+                <Route path="/about/code-of-conduct" element={<ChildMasterPage contents={ContentTexts.about.codeOfConduct} childElement={<CodeOfConductContent />} />}></Route>
+                <Route path="/about/committee" element={<ChildMasterPage contents={ContentTexts.about.committee} childElement={<CommitteeContent />} />}></Route>
 
                 <Route
                     path="/proposals/call-for-proposals"
@@ -63,7 +67,7 @@ export const ContentComponent = () => {
                     path="/conference/program-schedule"
                     element={<ChildMasterPage contents={ContentTexts.conference.programSchedule} />}
                 ></Route>
-                <Route path="/conference/social-events" element={<ChildMasterPage contents={ContentTexts.conference.socialEvents} />}></Route>
+                <Route path="/conference/social-events" element={<ChildMasterPage contents={ContentTexts.conference.socialEvents} childElement={<SocialEventContent />} />}></Route>
 
                 <Route
                     path="/sponsors/call-for-sponsors"
@@ -71,7 +75,7 @@ export const ContentComponent = () => {
                 ></Route>
                 <Route
                     path="/sponsors/sponsors-and-partners"
-                    element={<ChildMasterPage contents={ContentTexts.sponsors.sponsorsPartners} />}
+                    element={<ChildMasterPage contents={ContentTexts.sponsors.sponsorsPartners} childElement={<SponsorPartnerContent />} />}
                 ></Route>
 
                 <Route path="/news/conference-news" element={<ChildMasterPage contents={ContentTexts.news.confNews} />}></Route>
