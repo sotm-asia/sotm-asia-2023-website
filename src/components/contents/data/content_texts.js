@@ -17,13 +17,13 @@ export const ContentTexts = {
                 "State of the Map Asia 2023 conference, along with FOSS4G Thailand, will be held at the Srinakharinwirot University - Asoke Area in the vibrant city of Bangkok, Thailand on November 16-18, 2023. This premier event aims to bring together geospatial experts, GIS enthusiasts, developers, humanitarian workers, and policymakers from across Asia to share knowledge, insights, and experiences related to OpenStreetMap (OSM) and the broader open mapping community.",
         },
         proposal: {
-            header: "Call for Proposals",
+            header: "Accepted Proposals",
             subHeader: "",
             email: "stateofthemapasia@gmail.com",
             link: "https://conference.foss4g.in.th/2023/cfp",
-            buttonText: "Submit Your Proposal",
+            buttonText: "See Accepted Proposal List",
             contentText:
-                "We are now accepting proposals for the FOSS4G Thailand and State of the Map Asia 2023.If you have something to share in geospatial technology, cartography, community building, or any other related field, we encourage you to submit your proposals and be a part of this enriching event. Should you have any questions or require further information please contact us at ",
+                "The Proposal submission date is over. Please Keep an eye here to see the accepted topics of the conference. If you want to know something else please contact us at -",
         },
         sponsor: {
             header: "Sponsors & Partners",
